@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Engr. Raana Factor - Virtual Card</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #ffffff;
+      color: #333;
+    }
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    .hello {
+      background-color: #7e3ff2;
+      color: white;
+    }
+    .hello h1 {
+      margin: 0;
+      font-size: 48px;
+    }
+    .hello h2 {
+      margin: 10px 0;
+      font-size: 24px;
+    }
+    .about {
+      background-color: #1dd1a1;
+      color: white;
+    }
+    .portfolio {
+      background-color: #f7f1e3;
+    }
+    .portfolio-items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+    .portfolio-item {
+      background-color: #dff9fb;
+      padding: 20px;
+      width: 150px;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 8px;
+      transition: transform 0.3s, background-color 0.3s;
+      cursor: pointer;
+    }
+    .portfolio-item:hover {
+      transform: scale(1.05);
+      background-color: #c8f7f3;
+    }
+    .contact {
+      background-color: #2f3640;
+      color: white;
+    }
+    .social-icons span {
+      display: inline-block;
+      background-color: white;
+      color: #2f3640;
+      width: 30px;
+      height: 30px;
+      line-height: 30px;
+      border-radius: 50%;
+      margin: 5px;
+      font-weight: bold;
+      transition: transform 0.3s, background-color 0.3s;
+      cursor: pointer;
+    }
+    .social-icons span:hover {
+      transform: scale(1.2);
+      background-color: #7e3ff2;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="section hello">
+    <h1>HELLO.</h1>
+    <h2>MY NAME IS RAANA FACTOR</h2>
+    <p>SYSTEM ANALYST | PYTHON PROGRAMMER</p>
+  </div>
+
+  <div class="section about">
+    <h2>ABOUT</h2>
+    <p>Bachelor of Science in Computer Engineering</p>
+    <p>EARIST | Address: Binondo, Manila</p>
+    <p>Started Career: Globe, Accenture, Dell</p>
+    <p>Job: System Analyst</p>
+  </div>
+
+  <div class="section portfolio">
+    <h2>PORTFOLIO</h2>
+    <p>Design | Programming | Analysis</p>
+    <div class="portfolio-items">
+      <div class="portfolio-item" onclick="alert('Project 1 Details Coming Soon!')">Project 1</div>
+      <div class="portfolio-item" onclick="alert('Project 2 Details Coming Soon!')">Project 2</div>
+      <div class="portfolio-item" onclick="alert('Project 3 Details Coming Soon!')">Project 3</div>
+      <div class="portfolio-item" onclick="alert('Project 4 Details Coming Soon!')">Project 4</div>
+      <div class="portfolio-item" onclick="alert('Project 5 Details Coming Soon!')">Project 5</div>
+      <div class="portfolio-item" onclick="alert('Project 6 Details Coming Soon!')">Project 6</div>
+    </div>
+  </div>
+
+  <div class="section contact">
+    <h2>CONTACT</h2>
+    <p>📞 0916-405-3864</p>
+    <p>📧 raanafactor1@gmail.com</p>
+    <p>🌐 FB: Raana Factor | IG: @factor_raana</p>
+    <div class="social-icons">
+      <span onclick="window.open('https://www.google.com')">G</span>
+      <span onclick="window.open('https://www.twitter.com')">T</span>
+      <span onclick="window.open('https://www.instagram.com/factor_raana')">I</span>
+      <span onclick="window.open('https://www.linkedin.com')">L</span>
+    </div>
+  </div>
+</body>
+</html>
